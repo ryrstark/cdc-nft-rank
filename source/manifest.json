@@ -6,7 +6,7 @@
     "128": "data/img/icon128.png"
   },
   "default_locale": "en",
-  "web_accessible_resources":["img/medal.png"],
+  "web_accessible_resources":["data/img/medal.png"],
   "content_scripts":[{
     "matches" : ["https://crypto.com/nft/*"],
     "js" : ["data/js/main.js"]
