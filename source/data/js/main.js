@@ -20,7 +20,7 @@
     ev.target.querySelectorAll('.NftCard_nftName__1Eh4U, .NftSummaryContainer_titleContainer__jO9V6').forEach(elem => {
       let data = elem.innerHTML.split('#');
       let collectionName = data[0].replace(/\s/g, '');
-	  let file = 'img/medal.png';
+	  let file = 'data/img/medal.png';
 	  let url = chrome.extension.getURL(file);
 	  
 	  
