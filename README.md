@@ -12,15 +12,6 @@ Collection supported yet:
 * BeatHeadz
 * MadHare
 
-[Download the extension](https://chrome.google.com/webstore/detail/bpjllcbeenkddkiihohmgdkmbdhgmmli)
-
-![result](other/result.png)
-
 ---------------
 
-Absolutely not necessary. However, they will be accepted as a gesture of thanks.
-```
-BTC: 1K1BgNEcHdQpZGyqLGJw7HCv6fWPjLzJie
-ETH (ERC20): 0xe88959092922a21a168d3772d1fb6d63e251f134
-BEP20/BSC (ETH, BNB, ...): 0xe88959092922a21a168d3772d1fb6d63e251f134
-```
+Follow me at twitter: https://twitter.com/Ryrstark
