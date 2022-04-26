@@ -5,6 +5,12 @@ Simple and unofficial extension used to display the rank of some nft within coll
 Collection supported yet:
 * PsychoKitties
 * Loaded Lions
+* PsychoMolly
+* Alphabot
+* Alphabot Armory Weapon
+* Ballies
+* BeatHeadz
+* MadHare
 
 [Download the extension](https://chrome.google.com/webstore/detail/bpjllcbeenkddkiihohmgdkmbdhgmmli)
 
