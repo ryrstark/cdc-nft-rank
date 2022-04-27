@@ -14,4 +14,6 @@ Collection supported yet:
 
 ---------------
 
+![result](other/sample.png)
+
 Follow me at twitter: https://twitter.com/Ryrstark

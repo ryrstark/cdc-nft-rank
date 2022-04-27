@@ -20,15 +20,23 @@
     ev.target.querySelectorAll('.NftCard_nftName__1Eh4U, .NftSummaryContainer_titleContainer__jO9V6').forEach(elem => {
       let data = elem.innerHTML.split('#');
       let collectionName = data[0].replace(/\s/g, '');
-	  let file = 'data/img/medal.png';
+	  let file = 'data/img/sun.png';
 	  let url = chrome.extension.getURL(file);
-	  
 	  
       if (collections[collectionName]) {
         let id = parseInt(data[1]);
         let rank = getRank(collectionName, id);
-        /*elem.innerHTML = elem.innerHTML + ' (' + rank + '/' + collections[collectionName].length + ')';*/
-		elem.innerHTML = elem.innerHTML + '<span style="color:#4f4f4f;border-radius:30px;padding:5px 8px;font-weight:bold;text-decoration:none;font-size:10px;line-height:1.3em;border:1px solid #949ba4;height:fit-content;box-sizing:border-box;position:relative;margin-left:8px;justify-content:center;flex-direction:column;display:block;align-items:center;float:right;text-align:center;"> <img src="'+url+'" width="11" height="auto"> '+ rank + ' </span>';
+		
+		//assign colors for easier spotting of ranks
+		let divlimits = Math.floor(collections[collectionName].length / 3)
+		if (rank > divlimits*2) {
+			  var clr = "pink";
+		} else if (rank > divlimits) {
+			  var clr = "palegreen";
+		} else {
+			  var clr = "gold";
+		}	
+		elem.innerHTML = elem.innerHTML + '<span style="color:#4f4f4f;border-radius:30px;padding:5px 8px;background-color:'+clr+';font-weight:bold;text-decoration:none;font-size:10px;line-height:1.3em;border:1px solid #949ba4;height:fit-content;box-sizing:border-box;position:relative;margin-left:8px;justify-content:center;flex-direction:column;display:block;align-items:center;float:right;text-align:center;"> <img src="'+url+'" width="11" height="auto"> '+ rank + ' </span>';
       }
     });
   });
