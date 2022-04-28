@@ -18,3 +18,5 @@ Collection supported yet:
 ![result](other/sample.png)
 
 Follow me at twitter: https://twitter.com/Ryrstark
+
+If you have a ranking table for any CDC Nft, you could message me and I'll add it on the extension.
