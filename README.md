@@ -3,14 +3,15 @@
 Simple and unofficial extension used to display the rank of some nft within collections on the nft platform of crypto.com.
 
 Collection supported yet:
-* PsychoKitties
 * Loaded Lions
+* PsychoKitties
 * PsychoMolly
 * Alphabot
 * Alphabot Armory Weapon
 * Ballies
 * BeatHeadz
 * MadHare
+* Word Wizard
 
 ---------------
 
